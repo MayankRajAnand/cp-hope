@@ -26,7 +26,7 @@ const DashboardNavbar = () => {
 
     return (
         <nav className='flex justify-between w-full mb-16 pt-3'>
-            <Link href="/dashboard" className="flex items-center ">
+            <Link href="/" className="flex items-center ">
                 <div className="relative h-16 w-16 mr-4">
                     <Image fill alt="logo" src="/hope-white.png" sizes="(max-width:300px) 100vw, 33vw" />
                 </div>

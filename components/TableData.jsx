@@ -13,7 +13,7 @@ import {
 const TableData = ({ table }) => {
     return (
         <div className='flex-row justify-center items-center' style={{ height: "400px ", overflowY: "scroll" }}>
-            <Table className="border-4">
+            <Table className="border-4 mx-auto my-5">
                 <TableHeader>
                     {table.getHeaderGroups().map((headerGroup) => (
                         <TableRow key={headerGroup.id} className="border-4">

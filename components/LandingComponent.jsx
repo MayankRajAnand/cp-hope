@@ -3,26 +3,26 @@ import { Button } from "./ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 const testimonials = [
     {
-        name: "Swayam",
-        avatar: "S",
+        name: " Babita",
+        avatar: "B",
         title: "SWE @Amazon",
-        description: "This immensily helped me to revise my DSA concepts"
+        description: "This immensely helped me to revise my DSA concepts"
     },
     {
-        name: "Aditya",
-        avatar: "A",
+        name: "Onam",
+        avatar: "O",
         title: "SDE @Oracle",
         description: "This is one of the best DSA sheets out there"
     },
     {
-        name: "Parag",
-        avatar: "P",
+        name: "Ojaswi",
+        avatar: "O",
         title: "App Developer @42Gears",
         description: "This helped me to crack 42Gears OA, Highly recommend to give it a try"
     },
     {
-        name: "Devarsh",
-        avatar: "D",
+        name: "Bhavin",
+        avatar: "B",
         title: "ML  @Fractal Analytics",
         description: "Such amazing content for FREE. The support team is also very prompt"
     }
