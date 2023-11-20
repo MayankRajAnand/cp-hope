@@ -17,7 +17,7 @@ const font = Montserrat({
 const LandingNavbar = () => {
     const { isSignedIn } = useAuth();
     return (
-        <nav className="pt-2 mt-1  flex items-center justify-between">
+        <nav className="pt-2 mt-1  flex items-center justify-between mx-4">
             <Link href="/" className="flex items-center">
                 <div className="relative h-16 w-16 mr-4">
                     <Image fill alt="logo" src="/hope-black.png" sizes="(max-width:300px) 100vw, 33vw" />
