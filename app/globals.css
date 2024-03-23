@@ -81,9 +81,11 @@
   z-index: 3;
   width: 100%;
   max-width: 640px;
-  background-image: radial-gradient(at 27% 37%,
+  background-image: radial-gradient(
+      at 27% 37%,
       hsla(215, 98%, 61%, 1) 0px,
-      transparent 0%),
+      transparent 0%
+    ),
     radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
     radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
     radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
@@ -104,7 +106,7 @@
 }
 
 .dropdown {
-  @apply absolute right-0 top-[35px] mt-3 w-full px-5 py-2 rounded-lg border-2 min-w-[140px] flex flex-col gap-2 justify-end items-end;
+  @apply absolute right-0 top-[35px] mt-3 w-full px-5 py-2 rounded-lg border-2 min-w-[170px] flex flex-col gap-2 justify-end items-end bg-gray-100;
 }
 
 .dropdown_link {
